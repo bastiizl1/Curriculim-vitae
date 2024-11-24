@@ -1,187 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Bastian Silva, diseñador web.">
+    <meta name="keywords" content="Diseño Web, HTML, CSS, Portafolio, Desarrollo Web">
+    <meta name="author" content="Bastian Silva">
+    <title>Portafolio | Bastian Silva</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
     <header class="header">
-      <div class="menu container">
-        <a href="#" class="logo">Logo</a>
-        <input type="checkbox" id="menu" />
-        <label for="menu">
-          <img src="images/menu.png" class="menu-icono" alt="menu" />
-        </label>
-        <nav class="navbar">
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre mi</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="header-content container">
-        <div class="header-txt">
-          <span>Soy</span>
-          <h1>Diseñador Web</h1>
-          <a href="#" class="btn-1">Información</a>
+        <div class="container">
+            <a href="#" class="logo">Bastian Silva</a>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
     </header>
-    <!-- El código que proporcionó está creando una sección de encabezado para una página web. -->
-    <section class="about container">
-      <div class="about-img">
-        <img src="images/perfil.jpeg" alt="" />
-      </div>
-      <div class="about-txt">
-        <h2>Sobre mi</h2>
-        <p>
-          Soy un apasionado del diseño web con experiencia en la creación de
-          sitios web atractivos y funcionales utilizando HTML y CSS. Tengo
-          habilidades sólidas en la implementación de diseños responsivos y en
-          la optimización de la experiencia del usuario. Mi objetivo es seguir
-          aprendiendo y creciendo en el campo del diseño web.
-        </p>
-        <br />
-        <p>
-          Tengo la capacidad comprobada para crear sitios web visualmente
-          atractivos y fáciles de usar. Experiencia en diseño responsivo y
-          desarrollo móvil. Tengo buena capacidad para la organización y
-          estructura. Esto implica planificar y organizar el contenido de una
-          página web de manera lógica, utilizando etiquetas HTML apropiadas y
-          dividiendo el contenido en secciones claras y distinguibles. - Diseño
-          la interfaz de usuario (UI). Aquí cree el aspecto visual de la
-          interfaz, incluyendo la elección de colores, tipografía, iconos y
-          otros elementos visuales.
-        </p>
-        <div class="butons">
-          <a href="#" class="btn-1">Portfolio</a>
-          <a href="#" class="btn-1">Tecnologías</a>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Hola, soy <span>Bastian Silva</span></h1>
+                <p>Diseñador Web especializado en la creación de sitios modernos, funcionales y atractivos.</p>
+                <a href="#portfolio" class="btn">Ver mi trabajo</a>
+            </div>
         </div>
-      </div>
     </section>
-    <!-- El código que proporcionó crea una sección en la página web que contiene información sobre las habilidades y experiencia de la persona en diseño web. -->
-    <main class="portfolio container">
-      <h2>Portfolio</h2>
-      <div class="portfolio-content">
-        <div class="portfolio-1">
-          <div class="portfolio-txt">
-            <span>Proyecto 1</span>
-            <h3>Página web</h3>
-            <p>
-              Me encarge de crear la estructura y el diseño de las páginas web.
-              Utilizo el lenguaje de marcado HTML para crear el código que
-              define la estructura de la página, y CSS para definir el estilo de
-              la página, como el color, el tamaño de la fuente y la ubicación de
-              los elementos.
+
+    <section id="sobre-mi" class="about">
+    <div class="container about-content">
+        <img src="images/perfil.jpeg" alt="Bastian Silva" class="about-img">
+        <div class="about-text">
+            <h2 class="section-title">Sobre mí</h2>
+            <p class="about-description">
+                Soy un diseño web apasionado por crear experiencias digitales que no solo sean visualmente atractivas, 
+                sino también funcionales. Con experiencia en HTML, CSS y diseño responsivo, 
+                busco siempre innovar y entregar soluciones de calidad.
             </p>
-            <a href="#" class="btn-1">Leer más</a>
-          </div>
-          <div class="portfolio-img">
-            <img src="images/pr1.png" alt="" />
-          </div>
-        </div>
-        <div class="portfolio-1">
-          <div class="portfolio-img">
-            <img src="images/pr2.png" alt="" />
-          </div>
-          <div class="portfolio-txt">
-            <span>Proyecto 2</span>
-            <h3>Página web</h3>
-            <p>
-              Hice este proyecto que consiste en crear un sitio web simple con
-              HTML y CSS. El sitio web incluye una página de inicio, una página
-              de contacto y una página de productos.
+            <p class="about-description">
+                Mi objetivo es seguir creciendo como profesional y aportar valor en cada proyecto que realizo.
             </p>
-            <a href="#" class="btn-1">Leer más</a>
-          </div>
         </div>
-        <div class="portfolio-1">
-          <div class="portfolio-txt">
-            <span>Proyecto 3</span>
-            <h3>Página web</h3>
-            <p>
-              Este proyecto fue un gran aprendizaje para mí. Aprendí los
-              fundamentos de HTML y CSS, y pude crear un sitio web simple. Este
-              proyecto me dio la confianza para seguir aprendiendo y desarrollar
-              mis habilidades de diseños webs.
-            </p>
-            <a href="#" class="btn-1">Leer más</a>
-          </div>
-          <div class="portfolio-img">
-            <img src="images/pr3.png" alt="" />
-          </div>
+    </div>
+</section>
+
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/Servicio1.png" alt="Proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>Sitio web corporativo diseñado con HTML y CSS.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/pr2.png" alt="Proyecto 2">
+                    <h3>Proyecto 2</h3>
+                    <p>Portfolio personal con diseño responsivo.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/Blog-2.png" alt="Proyecto 3">
+                    <h3>Proyecto 3</h3>
+                    <p>Landing page para un producto digital.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/Blog-3.png" alt="Proyecto 4">
+                    <h3>Proyecto 4</h3>
+                    <p>Sitio web de e-commerce minimalista.</p>
+                </div>
+            </div>
         </div>
-        <div class="portfolio-1">
-          <div class="portfolio-img">
-            <img src="images/pr4.png" alt="" />
-          </div>
-          <div class="portfolio-txt">
-            <span>Proyecto 4</span>
-            <h3>Página web</h3>
-            <p>
-              También sé hacer páginas web sencillas que no cambien su contenido
-              con frecuencia. Pueden contener información básica, como
-              información de contacto, descripción de productos o servicios, o
-              un blog.
-            </p>
-            <a href="#" class="btn-1">Leer más</a>
-          </div>
-        </div>
-      </div>
-    </main>
-    <!-- El código que proporcionó está creando una sección en la página web llamada "Portafolio". -->
-    <section class="skills container">
-      <h2>Experiencia</h2>
-      <div class="skills-content">
-        <img src="images/l1.png" alt="" />
-        <img src="images/l2.png" alt="" />
-      </div>
     </section>
-    <!-- El código que proporcionaste está creando una sección en la página web llamada experiencia. -->
+
+<section id="contacto" class="contact">
+    <div class="container">
+        <h2>Contacto</h2>
+        <p class="contact-description">
+            Si tienes preguntas, deseas colaborar o simplemente quieres saludar, no dudes en contactarme. 
+            Rellena el formulario a continuación y te responderé lo antes posible.
+        </p>
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar Mensaje</button>
+        </form>
+    </div>
+</section>
+
+
     <footer class="footer">
-      <div class="footer-content container">
-        <div class="link">
-          <h3>lorem</h3>
-          <ul>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-          </ul>
+        <div class="container">
+            <p>&copy; 2024 Bastian Silva. Todos los derechos reservados.</p>
+            <div class="social">
+                <a href="https://linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a>
+                <a href="https://github.com/tu-usuario" target="_blank">GitHub</a>
+                <a href="https://www.upwork.com/freelancers/bastiic?mp_source=share" target="_blank">UPWORK</a>
+            </div>
         </div>
-        <div class="link">
-          <h3>lorem</h3>
-          <ul>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-          </ul>
-        </div>
-        <div class="link">
-          <h3>lorem</h3>
-          <ul>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-          </ul>
-        </div>
-        <div class="link">
-          <h3>lorem</h3>
-          <ul>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-            <li><a href="#">lorem</a></li>
-          </ul>
-        </div>
-      </div>
     </footer>
-    <!-- El código que proporcionó está creando una sección de pie de página para la página web.  -->
-  </body>
+</body>
 </html>
